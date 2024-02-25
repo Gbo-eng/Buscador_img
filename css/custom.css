@@ -1,0 +1,41 @@
+body {
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 98%;
+}
+
+/* Estilizar el apartado del autor y las vistas */
+/* #resultado .result-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} */
+img{
+    width: 100%; 
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
+    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+.col{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1rem;
+    color: #333; 
+}
+.card-body{
+    margin-top: 10px;
+}
+.row{
+    justify-content: center;
+}
